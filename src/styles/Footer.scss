@@ -36,7 +36,10 @@ footer{
                 color: $dark;
                 font: 900 1 rem $text2;
 
-                
+                &:hover{
+                    color: $third;
+                }
+
             }
         }
     }
