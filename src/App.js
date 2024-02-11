@@ -10,6 +10,8 @@ import "./styles/header.scss";
 import "./styles/home.scss";
 import "./styles/Footer.scss";
 import "./styles/Contact.scss";
+import "./styles/services.scss";
+import Services from "./components/Services";
 
 
 function App() {
@@ -19,10 +21,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/services" element={<Services/>}/>
      </Routes>
      <Footer/>
     </Router>
   );
-}
+};
 
 export default App;
