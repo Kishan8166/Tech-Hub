@@ -8,7 +8,7 @@ const Footer = () => {
     </div>
 
     <div>
-        <h5>Follow Us</h5>
+        <h5>Find Me on</h5>
         <div>
             <a href="https://www.instagram.com/_kishn_/" target={"blank"}>Instagram</a>
         </div>
